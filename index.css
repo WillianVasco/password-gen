@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #f6fff8;
+    color: #2f4858;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#passwordTitle {
+    color: #2f4858;
+    font-style: italic;
+}
+
+h1 {
+    color: #10B981;
+    margin: 100px 0 80px 0;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.parameters {
+    display: flex;
+    margin: 0 auto 40px auto;
+    justify-content: center;
+    width: 420px;
+    align-items: center;
+    align-content: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#flenght {
+    width: 40px;
+    border: 1px solid #2f4858;
+    border-radius: 2px;
+    margin: 0 20px 0 5px;
+}
+
+#fsymbols {
+    width: 22px;
+    height: 22px;
+    accent-color: #10B981;
+    color: white;
+    margin: 0 20px 0 5px;
+}
+
+#fnumbers {
+    width: 22px;
+    height: 22px;
+    accent-color: #10B981;
+    color: white;
+    margin: 0 0 0 5px;
+}
+
+button {
+    margin: 0px 0px 20px 0px;
+    background-color: #10B981;
+    color: white;
+    border: none;
+    border-radius: 2%;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+.passwords {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.option {
+    margin: 30px 20px 30px 5px;
+    width: 210px;
+    height: 26px;
+    font-size: 15px;
+    background-color: #2f4858;
+    border: none;
+    color: white;
+    border-radius: 3%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer {
+    font-size: 17px;
+    font-style: italic;    
+}

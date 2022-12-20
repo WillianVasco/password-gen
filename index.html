@@ -1,0 +1,29 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Random <span id="passwordTitle">password</span> generator tool</h1>
+        <h2>Passwords are fundamental keys in cybersecurity.<br>Set the parameters, click on <i>Get a Password</i> and choose one of the options!</h2>
+        <form class="parameters">
+            <label for="flenght">Password Lenght</label>
+            <input type="number" id="flenght" name="flenght" min="6" max="20" value=10>
+            <label for="fsymbols">Symbols</label>
+            <input type="checkbox" id="fsymbols" name="fsymbols" checked="true">
+            <label for="fnumbers">Numbers</label>
+            <input type="checkbox" id="fnumbers" name="fnumbers" checked="true">
+        </form>
+        <button onclick="getPassword()">Get a Password</button>
+        <div class="passwords">
+            <p>Option 1</p>
+            <p id="option1" class="option"></p>
+            <!--<input type="text" class="option" id="option1" name="option1">!-->
+            <p>Option 1</p>
+            <p id="option2" class="option"></p>
+            <!--<input type="text" class="option" id="option2" name="option2">!-->
+        </div>
+        <p class="footer">Created and designed by Willian Vasconcelos</p>
+        <p class="footer">Contact: willfvasconcelos@gmail.com</p>        
+        <script src="index.js"></script>
+    </body>
+</html>
