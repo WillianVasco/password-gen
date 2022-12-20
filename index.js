@@ -42,3 +42,27 @@ function getPassword() {
         }
     }
 }
+
+option1El.onclick = function() {
+    document.execCommand("copy");
+}
+  
+option1El.addEventListener("copy", function(event) {
+    event.preventDefault();
+    if (event.clipboardData) {
+        event.clipboardData.setData("text/plain", option1El.textContent);
+        console.log(event.clipboardData.getData("text"))
+    }
+});
+
+option2El.onclick = function() {
+    document.execCommand("copy");
+}
+  
+option2El.addEventListener("copy", function(event) {
+    event.preventDefault();
+    if (event.clipboardData) {
+        event.clipboardData.setData("text/plain", option2El.textContent);
+        console.log(event.clipboardData.getData("text"))
+    }
+});
